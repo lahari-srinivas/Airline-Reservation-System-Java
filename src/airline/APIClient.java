@@ -16,7 +16,7 @@ public class APIClient {
 
     public static List<Flight> fetchFlights(String from, String to) throws Exception {
 
-        String apiKey = "63b5c988ba60bd4977660ed0c6ac3332"; // <-- Add your API KEY here
+        String apiKey = <your api key>; // <-- Add your API KEY here
 
         String apiUrl = "https://api.aviationstack.com/v1/flights?access_key="
                 + apiKey + "&dep_iata=" + from + "&arr_iata=" + to + "&limit=10";
